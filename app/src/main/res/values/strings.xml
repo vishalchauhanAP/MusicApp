@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Application - A Virtusa Practice</string>
+    <string name="album_info_title">Music Application - A Virtusa Practice</string>
+
+    <string name="error_albums_info">Music App : Error while getting Albums.</string>
+    <string name="error_albums_info_nodata">Music App : No Albums Present.</string>
+    <string name="remote_toolbar_title">Populated from Local Source</string>
+    <string name="local_toolbar_title">Populated from Remote Source</string>
+
+</resources>

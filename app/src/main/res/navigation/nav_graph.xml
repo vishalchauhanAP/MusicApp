@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/albumsInfoFragment">
+    <fragment
+        android:id="@+id/albumsInfoFragment"
+        android:name="com.practice.virtusa.musicapp.user_interface.AlbumsInfoFragment"
+        android:label="AlbumsInfoFragment" />
+</navigation>
