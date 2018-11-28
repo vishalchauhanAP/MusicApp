@@ -7,6 +7,7 @@ Screen Shots : https://drive.google.com/open?id=15YpMW63bPgi3ld0yTZbzzRhfoZKW7RQ
 3 Used LiveData, and Observe that data using ViewModel
 
 4 Make three Repositories, 
+
      One is RemoteRepo, Fetched Data from Remote Source.
      
      Second is LocalRepo, Save Data Locally already fetched using RemoteRepo
