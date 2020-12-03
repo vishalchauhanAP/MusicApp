@@ -10,6 +10,13 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
+- task: AndroidSigning@3
+  inputs:
+    apkFiles: '**/*.apk'
+    apksignerKeystoreFile: 'abc'
+    apksignerKeystorePassword: 'password'
+    apksignerKeystoreAlias: 'password'
+    apksignerKeyPassword: 'password'
 - task: Gradle@2
   inputs:
     workingDirectory: ''
